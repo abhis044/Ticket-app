@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="ticket-filters">
+            <div  class="red filter active-filter" ></div>
+            <div  class="blue filter" ></div>
+            <div  class="green filter" ></div>
+            <div  class="yellow filter" ></div>
+            <div  class="black filter" ></div>
+        </div>
+        <div class="ticket-actions">
+            <div class="sign open-modal"><i class="fa-solid fa-plus" style="color: green;"></i></div>
+            <div class="sign close-modal"><i class="fa-solid fa-xmark" style="color: red;"></i></div>
+        </div>
+    </header>
+    <div class="tickets-container">
+        
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+<script>
+  var uuid = new ShortUniqueId();
+</script>
+<script src="index.js"></script>
+</body>
+</html>
